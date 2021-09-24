@@ -15,22 +15,35 @@ body
 {   
     font-family: 'Literata';
 }
-ul
+.ulMenu
 {
     display: flex;
     margin-left: 10px;
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-image: url(../images/fon_menu.png);
-    height: 50px;
+    
     background-repeat: no-repeat;
     background-position: left;
-    background-color: #020305;
+    
     background-attachment: fixed;
     background-size: cover;
     
 }
+
+.ulTable
+{
+    margin-left: 10px;
+    margin: 0;
+    
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
 .menuElement
 {
     margin-left: 40px;
