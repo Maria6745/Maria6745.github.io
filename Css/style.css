@@ -28,6 +28,7 @@ body
     
     background-attachment: fixed;
     background-size: cover;
+    background-color:rgba(235, 178, 197, 0.829);
     
 }
 .liLogo
@@ -56,9 +57,32 @@ body
     height: 30px;
 
 }
-.img_rigth
+.text_center
 {
-    flex-grow: 1;
+    display: flex;
+    justify-content:space-evenly;
+    background-color:rgba(235, 178, 197, 0.829);
+}
+.ul_center
+{
+    display: flex;
+    justify-content:space-evenly;
+}
+.title_center
+{
+    display: flex;
+    justify-content:center;
+}
+.text_left
+{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 10px;
+    margin-right: 3%;
+}
+.background
+{
+    background-color:rgba(235, 178, 197, 0.829);
 }
 header
 {
@@ -73,7 +97,8 @@ header
    padding-left: 200px;
    padding-top: 80px;
 }
-footer{
+footer
+{
     display: flex;
     justify-content: space-around;
 }
