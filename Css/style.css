@@ -1,0 +1,79 @@
+/* literata-regular - latin */
+@font-face {
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/literata-v23-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/literata-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/literata-v23-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/literata-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/literata-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/literata-v23-latin-regular.svg#Literata') format('svg'); /* Legacy iOS */
+  }
+body
+{   
+    font-family: 'Literata';
+}
+.ulMenu
+{
+    display: flex;
+    margin-left: 10px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.liLogo
+{
+    flex-grow: 2;
+    flex-basis: 400px;
+}
+.ulTable
+{
+    margin-left: 10px;
+    margin: 0;
+    
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.menuElement
+{
+    margin-left: 40px;
+    border-left: 2px solid black;
+    flex-grow: 1;
+    height: 30px;
+
+}
+.img_rigth
+{
+    flex-grow: 1;
+}
+header
+{
+   text-align: center;
+   background-image: url(../images/fon.jpg);
+   height: 150px;
+   background-repeat: no-repeat;
+   background-position: left;
+   background-color: #020305;
+   background-attachment: fixed;
+   background-size: cover;
+   padding-left: 200px;
+   padding-top: 80px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
